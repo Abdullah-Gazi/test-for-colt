@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <div class="form">
+        <form action="demo">
+
+            <h3>Create your puremart account</h3>
+            <p>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" required><br><br>
+                <label for="name">Full Name</label><br>
+                <input type="name" name="name" id="name" minlength="5" maxlength="12" required><br><br>
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id="password" required=""><br><br>
+                <label for="password">Re-enter Password</label><br>
+                <input type="password" name="password" id="password" required><br>
+            <p>Select a game</p>
+            <input type="radio" id="radio1" name="readio" value="pubg game">
+            <label for="radio1">Pubg Game</label><br>
+            <input type="radio" id="radio2" name="readio" value="free fire game">
+            <label for="radio2">Free Fire Game</label><br>
+            <input type="radio" id="radio3" name="readio" value="gta vice city">
+            <label for="radio3">Gta Vice City</label></p>
+
+            <label for="option">Select Age:</label>
+            <select name="option" id="option">
+                <option value="Kids">12-18</option>
+                <option value="Young">10-50</option>
+                <option value="Old">60-115</option>
+            </select>
+            <br>
+            <button>Submit</button>
+        </form>
+    </div>
+
 </body>
+
 </html>
+http://127.0.0.1:5500/demo?email=abdullahg12323%40gmail.com&name=abdullahg123&password=Drr4CZBBN2H9QjT&password=Drr4CZBBN2H9QjT&readio=free+fire+game&option=Old
